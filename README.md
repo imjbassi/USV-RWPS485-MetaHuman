@@ -24,8 +24,22 @@ The original audio files were screen recording mp4s in Zoom. To make them usable
 After converting the files, it was time to make lipsync animations from the said files. These were the settings used to make the animations and they remained consistent throughout the project.
 
 <img src="https://raw.githubusercontent.com/imjbassi/USV-RWPS485-MetaHuman/main/Images/1.png" width="700"/>
+<img src="https://raw.githubusercontent.com/imjbassi/USV-RWPS485-MetaHuman/main/Images/3.png" width="900"/>
 
-The animations were also compressed, even though there was little size difference, every bit of data counted to make this usable on lower end machines
+The animations were also compressed, even though there was little size difference, every bit of data counted to make this usable on lower-end machines
 
 <img src="https://raw.githubusercontent.com/imjbassi/USV-RWPS485-MetaHuman/main/Images/2.png" alt="Image Description" width="500"/>
 
+After these animations were made, we now needed a way to output every single one. The solution was to use switch statements by using an enumerator to process keywords.
+
+<img src="https://raw.githubusercontent.com/imjbassi/USV-RWPS485-MetaHuman/main/Images/8.png" alt="Image Description" width="500"/>
+
+This shows the enum being used in the level blueprint where the output is to play the metahuman animation and recording at the same time when a keyword is inputted into the switch statement.
+
+<img src="https://raw.githubusercontent.com/imjbassi/USV-RWPS485-MetaHuman/main/Images/4.png" alt="Image Description" width="900"/>
+
+This can be an arduous process and can look something like this:
+
+<img src="https://raw.githubusercontent.com/imjbassi/USV-RWPS485-MetaHuman/main/Images/6.png" alt="Image Description" width="900"/>
+
+After that, we have working output and are free to designate any output we so choose!
